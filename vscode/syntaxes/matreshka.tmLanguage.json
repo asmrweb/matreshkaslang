@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "MatreshkaScript",
+    "scopeName": "source.matreshka",
+    "fileTypes": [
+        ".mks"
+    ],
+    "patterns": [
+        {
+            "match": "\\b(если|цикл|функция|вернуть|вывести)\\b",
+            "name": "keyword.control.matreshka"
+        },
+        {
+            "begin": "\"",
+            "end": "\"",
+            "name": "string.quoted.double.matreshka"
+        }
+    ],
+    "uuid": "..."
+}

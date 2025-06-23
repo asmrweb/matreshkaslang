@@ -1,0 +1,33 @@
+{
+    "name": "matreshka",
+    "displayName": "MatreshkaScript",
+    "description": "Поддержка синтаксиса для MatreshkaScript",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "matreshka",
+                "extensions": [
+                    ".mks"
+                ],
+                "aliases": [
+                    "MatreshkaScript"
+                ],
+                "filenames": []
+            }
+        ],
+        "grammars": [
+            {
+                "language": "matreshka",
+                "scopeName": "source.matreshka",
+                "path": "./syntaxes/matreshka.tmLanguage.json"
+            }
+        ]
+    }
+}
